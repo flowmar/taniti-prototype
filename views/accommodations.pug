@@ -1,0 +1,48 @@
+extends layout
+
+block content
+  .container
+    .scrollspy(data-mdb-spy="scroll" data-mdb-target="#scrollspy2" data-mdb-offset="0")
+      .row
+        .col-1
+        .col-9
+          .container-fluid
+            .row.text-dark.d-flex.align-items-center.justify-content-center.py-5
+              .col-1
+              .col.text-center#transportation
+                span.h2 Transportation
+                p Lorem ipsum dolor sit amet, est elit exercitation qui voluptate. Proident adipisicing occaecat id cupidatat sit nisi cillum. Amet Lorem ut minim culpa dolore laborum laborum do officia anim cillum dolor veniam aliqua ullamco consectetur culpa. Magna aute culpa commodo ea cillum enim commodo culpa ad consectetur amet aliquip reprehenderit eu amet.
+              .col
+                img(src="https://dummyimage.com/300.png" alt='')
+            .row.text-dark.d-flex.align-items-center.justify-content-center.py-5
+              .col-1
+              .col.text-center#ground-transportation
+                span.h2 Ground Transportation
+                p Lorem ipsum dolor sit amet, est elit exercitation qui voluptate. Proident adipisicing occaecat id cupidatat sit nisi cillum. Amet Lorem ut minim culpa dolore laborum laborum do officia anim cillum dolor veniam aliqua ullamco consectetur culpa. Magna aute culpa commodo ea cillum enim commodo culpa ad consectetur amet aliquip reprehenderit eu amet.
+              .col
+                img(src="https://dummyimage.com/300.png" alt='')
+            .row.text-dark.d-flex.align-items-center.justify-content-center.py-5
+              .col-1
+              .col.text-center#lodging
+                span.h2 Lodging
+                p Lorem ipsum dolor sit amet, est elit exercitation qui voluptate. Proident adipisicing occaecat id cupidatat sit nisi cillum. Amet Lorem ut minim culpa dolore laborum laborum do officia anim cillum dolor veniam aliqua ullamco consectetur culpa. Magna aute culpa commodo ea cillum enim commodo culpa ad consectetur amet aliquip reprehenderit eu amet.
+              .col
+                img(src="https://dummyimage.com/300.png" alt='')
+            .row.text-dark.d-flex.align-items-center.justify-content-center.py-5
+              .col-1
+              .col.text-center#grocery
+                span.h2 Grocery
+                p Lorem ipsum dolor sit amet, est elit exercitation qui voluptate. Proident adipisicing occaecat id cupidatat sit nisi cillum. Amet Lorem ut minim culpa dolore laborum laborum do officia anim cillum dolor veniam aliqua ullamco consectetur culpa. Magna aute culpa commodo ea cillum enim commodo culpa ad consectetur amet aliquip reprehenderit eu amet.
+              .col
+                img(src="https://dummyimage.com/300.png" alt='')
+        .col-1
+          #scrollspy2.sticky-top.mt-5
+            ul.nav.flex-column.nav-pills.menu-sidebar
+              li.nav-item
+                a.nav-link(href="#transportation") Transportation
+              li.nav-item
+                a.nav-link(href="#ground-transportation") Ground Transportation
+              li.nav-item
+                a.nav-link(href="#lodging") Lodging
+              li.nav-item
+                a.nav-link(href="#grocery") Grocery

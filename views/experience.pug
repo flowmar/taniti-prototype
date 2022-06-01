@@ -1,20 +1,203 @@
 extends layout
 
 block content
-  .container-fluid.bg-primary
-    .container.shadow-inner.border
+  .container-fluid.bg-primary.pt-5
+    .scrollspy(data-mdb-spy="scroll" data-mdb-target="#scrollspy1" data-mdb-offset="0")
+      //- Entertainment
       .row
-        .col
-          .card-group
-            .card
-              img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
-              .card-header.text-dark Entertainment
-                .card-body
-                  .card-title Enter
-                  .card-text taasdfl;asdjflaksdjf;lkasjdlk
-            .card
-              img.card-img-top(src="")
-              .card-header.text-dark
-                .card-body
-                  .card-title asdfasd
-                    .card-text asdfasdfasdfasdf
+        .col-1
+        .col-9
+          .container.shadow-inner.border.pt-4#entertainment
+            .row
+              .col.text-center.display-4 Entertainment
+            .row.row-cols-3.g-4.p-4
+              .col
+                .card
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Relaxing Beaches
+                      .card-text Beach
+                .card.mt-3
+                  img.card-img-top(src="https://dummyimage.com/300.png")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Rainforest Excursion
+                      .card-text Rainforest
+                .card.mt-3
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Volcano
+                      .card-text Incredible volcano
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark 
+                      .card-body
+                        h5.card-title History Museum
+                        .card-text Description
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Fishing Tours
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Zip-Lining
+                        .card-text Desc
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Microbrewery
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Arcade
+                        .card-text
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Art Gallery
+                        .card-text Desc
+          //- Sightseeing
+          .container.shadow-inner.border.pt-4.mt-3#sightseeing
+            .row
+              .col.text-center.display-4 Sightseeing
+            .row.row-cols-3.g-4.p-4
+              .col
+                .card
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Relaxing Beaches
+                      .card-text Beach
+                .card.mt-3
+                  img.card-img-top(src="https://dummyimage.com/300.png")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Rainforest Excursion
+                      .card-text Rainforest
+                .card.mt-3
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Volcano
+                      .card-text Incredible volcano
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark 
+                      .card-body
+                        h5.card-title History Museum
+                        .card-text Description
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Fishing Tours
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Zip-Lining
+                        .card-text Desc
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Microbrewery
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Arcade
+                        .card-text
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Art Gallery
+                        .card-text Desc
+            //- Restaurants
+          .container.shadow-inner.border.pt-4.mt-3#dining
+            .row
+              .col.text-center.display-4 Dining
+            .row.row-cols-3.g-4.p-4
+              .col
+                .card
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Relaxing Beaches
+                      .card-text Beach
+                .card.mt-3
+                  img.card-img-top(src="https://dummyimage.com/300.png")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Rainforest Excursion
+                      .card-text Rainforest
+                .card.mt-3
+                  img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                  .card-header.text-dark
+                    .card-body
+                      h5.card-title Volcano
+                      .card-text Incredible volcano
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark 
+                      .card-body
+                        h5.card-title History Museum
+                        .card-text Description
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Fishing Tours
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Zip-Lining
+                        .card-text Desc
+              .col
+                .card
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Microbrewery
+                        .card-text 
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Arcade
+                        .card-text
+                .card.mt-3
+                    img.card-img-top(src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp")
+                    .card-header.text-dark
+                      .card-body
+                        h5.card-title Art Gallery
+                        .card-text Desc
+        .col-2
+          #scrollspy1.sticky-top
+            ul.nav.flex-column.nav-pills.menu-sidebar
+              li.nav-item
+                a.nav-link(href="#entertainment") Entertainment
+              li.nav-item
+                a.nav-link(href="#sightseeing") Sightseeing
+              li.nav-item
+                a.nav-link(href="#dining") Dining

@@ -13,3 +13,11 @@ body {
 .nav-link {
   color: black;
 }
+
+#scrollspy1 > ul > li > a:active {
+  color: var(--red);
+}
+
+#scrollspy1 > ul > li > a,a:link {
+  color: #FFF;
+}

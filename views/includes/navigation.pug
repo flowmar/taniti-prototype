@@ -23,12 +23,12 @@ header
           else
             li.nav-item
               a.nav-link.hover-shadow(href="/experience") Experience
-          if title == "Travel"
+          if title == "Accommodations"
             li.nav-item
-              a.nav-link.active.bg-secondary(href="/travel") Travel
+              a.nav-link.active.bg-secondary(href="/accommodations") Accommodations
           else
             li.nav-item
-              a.nav-link.hover-shadow(href="/travel") Travel
+              a.nav-link.hover-shadow(href="/accommodations") Accommodations
           if title == "FAQs"
             li.nav-item
               a.nav-link.active.bg-secondary(href="/faqs") FAQs
@@ -56,7 +56,7 @@ header
         .d-flex.justify-content-center.align-items-center.h-100
           .text-light
             h1.mb-3#page-title #{title}
-  else if title == "Travel"
+  else if title == "Accommodations"
     .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/filippo-cesarini-waterfalls_at_the_bottom_of_the_volcano-scopio.jpeg'); height: 400px;")
       .mask(style="background-color: rgba(0, 0, 0, 0.6);")
         .d-flex.justify-content-center.align-items-center.h-100

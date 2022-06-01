@@ -37,9 +37,9 @@ app.get("/experience", async (_req, res) => {
 });
 
 // Request for 'travel' URL
-app.get("/travel", async (_req, res) => {
-  res.render("travel", {
-  title: "Travel"});
+app.get("/accommodations", async (_req, res) => {
+  res.render("accommodations", {
+  title: "Accommodations"});
 });
 
 // Request for faq URL
