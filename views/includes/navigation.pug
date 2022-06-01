@@ -1,0 +1,72 @@
+header
+  nav.navbar.navbar-expand-lg.p-0.pr-1
+    .container-fluid.ml-0.p-3.bg-primary.bg-gradient.bg-opacity-50
+      a.navbar-brand.mt-0.mt-lg-0.p-0(href="#")
+        img.img-fluid.m-0.rounded-pill.border.border-dark.shadow-3-strong(src="./images/visitTaniti512.png" alt="Taniti Logo")
+      .d-flex.align-items-center.justify-content-center
+        ul.navbar-nav.me-auto.mb-lg-0.nav-pills
+          if title == "Home"
+            li.nav-item
+              a.nav-link.active.hover-shadow.bg-secondary(href="/") Home
+          else
+            li.nav-item
+              a.nav-link.hover-shadow.link-secondary(href="/") Home
+          if title == "About"
+            li.nav-item
+              a.nav-link.active.bg-secondary(href="/about") About
+          else
+            li.nav-item
+              a.nav-link.hover-shadow(href="/about") About
+          if title == "Experience"
+            li.nav-item
+              a.nav-link.active.bg-secondary(href="/experience") Experience
+          else
+            li.nav-item
+              a.nav-link.hover-shadow(href="/experience") Experience
+          if title == "Travel"
+            li.nav-item
+              a.nav-link.active.bg-secondary(href="/travel") Travel
+          else
+            li.nav-item
+              a.nav-link.hover-shadow(href="/travel") Travel
+          if title == "FAQs"
+            li.nav-item
+              a.nav-link.active.bg-secondary(href="/faqs") FAQs
+          else
+            li.nav-item
+              a.nav-link.hover-shadow(href="/faqs") FAQs
+
+  if title == "Home"
+    .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/island-matt-hardy.jpeg'); height: 400px;")
+      .mask(style="background-color: rgba(0, 0, 0, 0.6);")
+        .d-flex.justify-content-center.align-items-center.h-100
+          .text-light
+            h1.mb-3#page-title #{title}
+            if title == "Home"
+              a.btn.btn-success.btn-lg(href="/about" role="button" data-mdb-ripple-color="dark") Read More
+  else if title == "About"
+    .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/rainforest-andrea-marinoni.jpeg'); height: 400px;")
+      .mask(style="background-color: rgba(0, 0, 0, 0.6);")
+        .d-flex.justify-content-center.align-items-center.h-100
+          .text-light
+            h1.mb-3#page-title #{title}
+  else if title == "Experience"
+    .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/kurum-khan-aerial_view_of_woman_in_body_of_water-scopio.jpeg'); height: 400px;")
+      .mask(style="background-color: rgba(0, 0, 0, 0.6);")
+        .d-flex.justify-content-center.align-items-center.h-100
+          .text-light
+            h1.mb-3#page-title #{title}
+  else if title == "Travel"
+    .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/filippo-cesarini-waterfalls_at_the_bottom_of_the_volcano-scopio.jpeg'); height: 400px;")
+      .mask(style="background-color: rgba(0, 0, 0, 0.6);")
+        .d-flex.justify-content-center.align-items-center.h-100
+          .text-light
+            h1.mb-3#page-title #{title}
+  else if title == "FAQs"
+    .p-5.text-center.bg-image.border.border-dark.shadow-1-strong(style="background-color: var(--yellow); background-image: url('/images/pierrick-lemaret-haukland_beach_in_lofoten_islands_norway-scopio.jpeg'); height: 400px;")
+      .mask(style="background-color: rgba(0, 0, 0, 0.6);")
+        .d-flex.justify-content-center.align-items-center.h-100
+          .text-light
+            h1.mb-3#page-title #{title}
+
+            

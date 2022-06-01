@@ -1,0 +1,15 @@
+:root {
+  --light-blue: #0376b0;
+  --red: #ff2f56;
+  --yellow: #f7dd36;
+  --green: #00B74A;
+  background-color: var(--green);
+}
+
+body {
+  color: #FFF;
+  background-color: white;
+}
+.nav-link {
+  color: black;
+}

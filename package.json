@@ -1,0 +1,28 @@
+{
+  "name": "taniti-prototype",
+  "version": "1.0.0",
+  "description": "Omar Imam's C856 - User Experience Design Project Task 1 -- A prototype of a revamp of a Taniti tourism website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js -e js,pug",
+    "ui": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "taniti-prototype"
+  },
+  "author": "Omar Imam",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-icons": "^1.8.3",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16"
+  }
+}

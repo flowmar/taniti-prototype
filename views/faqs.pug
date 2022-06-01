@@ -1,0 +1,47 @@
+extends layout.pug
+
+block content
+
+  .container-fluid.mt-3
+    .row
+      .accordion#faq1
+        .accordion-item
+          h2.accordion-header#faq-heading-1
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne") What is the voltage of the power outlets?
+          #collapseOne.accordion-collapse.collapse(aria-labelledby="faq-heading-1" data-mdb-parent="faq1")
+            .accordion-body The power voltage of the outlets is the same as the United States, 120v.
+        .accordion-item
+          h2.accordion-header#faq-heading-2
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo") Are there any restrictions on when alcohol can be purchased?
+          #collapseTwo.accordion-collapse.collapse(aria-labelled="faq-heading-2" data-mdb-parent="faq1")
+            .accordion-body Alcohol sales are prohibited between the hours of midnight and 9:00am.
+        .accordion-item
+          h2.accordion-header#faq-heading-3
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree") What is the minimum age for alcohol consumption on the island?
+          #collapseThree.accordion-collapse.collapse(aria-labelled="faq-heading-3" data-mdb-parent="faq1")
+            .accordion-body The drinking age is 18 years, but it is not strictly enforced.
+        .accordion-item
+          h2.accordion-header#faq-heading-4
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour") Is it important to learn any Tanitian before my trip?
+          #collapseFour.accordion-collapse.collapse(aria-labelled="faq-heading-4" data-mdb-parent="faq1")
+            .accordion-body A majority of younger Tanitians speak English fluently. If you keep to areas that many tourists visit, you should not encounter any language issues. However, in rural areas, there is very little English spoken.
+        .accordion-item
+          h2.accordion-header#faq-heading-5
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive") What if I get injured or have health issues?
+          #collapseFive.accordion-collapse.collapse(aria-labelled="faq-heading-5" data-mdb-parent="faq1")
+            .accordion-body There is one hospital on the island as well as smaller clinics. The hospital employs a number of multilingual staff.
+        .accordion-item
+          h2.accordion-header#faq-heading-6
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix") How safe is Taniti? Is there a high crime rate?
+          #collapseSix.accordion-collapse.collapse(aria-labelled="faq-heading-6" data-mdb-parent="faq1")
+            .accordion-body Violent crime is extremely rare on the island. It is recommended that you keep careful watch of your valuables due to pickpockets.
+        .accordion-item
+          h2.accordion-header#faq-heading-7
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven") Is there anything to know before scheduling our activites?
+          #collapseSeven.accordion-collapse.collapse(aria-labelled="faq-heading-7" data-mdb-parent="faq1")
+            .accordion-body Taniti celebrates a large number of national holidays, during which a majority of tourist attractions and restaurants will be closed. Please plan your trip accordingly.
+        .accordion-item
+          h2.accordion-header#faq-heading-8
+            button.accordion-button(type="button" data-mdb-toggle="collapse" data-mdb-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight") What kind of currency is accepted in Taniti?
+          #collapseEight.accordion-collapse.collapse(aria-labelled="faq-heading-8" data-mdb-parent="faq1")
+            .accordion-body The main currency of Taniti is the U.S. dollar, but many businesses also accept Euros and Yen. There are several banks available for currency exchange. Major credit cards are also accepted at most businesses.
