@@ -1,13 +1,26 @@
-footer.text-dark
-  .container-fluid.bg-success.p-5.border.bg-opacity-75
-    .row
-      .col
-        p.text-center ©2022 Government of Taniti
-    .row
-      .col-10
-      .col.p-1
-        span
-          img(src="/icons/facebook.svg" width="32" height="32" alt="Facebook")
-          img(src="/icons/instagram.svg" width="32" height="32" alt="Instagram")
-          img(src="/icons/twitter.svg" width="32" height="32" alt="Twitter")
-          img(src="/icons/pinterest.svg" width="32" height="32" alt="Pinterest")
+footer.text-dark.text-center.bg-success
+  //- Social Media
+  .container.p-4
+    section.mb-4
+      a.btn.btn-primary.btn-floating.m-1
+        i.fab.fa-facebook-f.bi-facebook
+      a.btn.btn-primary.btn-floating.m-1(style="background-color: #55acee" role="button")
+        i.fab.fa-twitter.bi-twitter
+      a.btn.btn-primary.btn-floating.m-1(style="background-color: #dd4b39" role="button")
+        i.fab.fa-google.bi-pinterest
+      a.btn.btn-primary.btn-floating.m-1(style="background-color: #ac2bac")
+        i.fab.fa-instagram.bi-instagram
+    //- Form
+    section
+      form(action="")
+        .row.d-flex.justify-content-center
+          .col-auto
+            p.pt-2
+              strong Keep up with the latest Tanitain News!
+          .col-12.col-md-5
+            .form-outline.mb-4
+              input.form-control(type="email" id="newsletter")
+              label.form-label(for="newsletter") Email Address
+          .col-auto
+            button.btn.btn-secondary.mb-4(type="submit") Submit
+  .text-center.p-3(style="background-color: rgba(0,0,0,0.2)") ©2022 Government of Taniti
