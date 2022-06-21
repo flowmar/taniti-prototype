@@ -1,5 +1,6 @@
 :root {
   --light-blue: #0376b0;
+  --dark-blue: #54ade4;
   --red: #ff2f56;
   --yellow: #f7dd36;
   --green: #00B74A;
@@ -8,7 +9,7 @@
 
 body {
   color: #FFF;
-  background-color: white;
+  background-color: var(--dark-blue);
 }
 .nav-link {
   color: black;
@@ -21,3 +22,7 @@ body {
 #scrollspy1 > ul > li > a,a:link {
   color: #FFF;
 }
+
+/* .bg {
+  background-color: var(--dark-blue);
+} */
