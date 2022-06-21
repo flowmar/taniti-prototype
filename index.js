@@ -1,5 +1,4 @@
 const express = require('express')
-const axios = require("axios"); // HTTP request library
 const path = require("path");
 const PORT = process.env.PORT || 8000;
 
