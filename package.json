@@ -18,7 +18,7 @@
     "bootstrap-icons": "^1.8.3",
     "express": "^4.18.1",
     "path": "^0.12.7",
-    "pug": "^3.0.2"
+    "pug": "^3.0.3"
   },
   "devDependencies": {
     "browser-sync": "^3.0.2",
